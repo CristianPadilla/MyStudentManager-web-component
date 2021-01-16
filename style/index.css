@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(219, 217, 217);
+  font-family: "Raleway", sans-serif;
+}
+
+.banner {
+  height: 100vh;
+  width: 100%;
+  /*background: url('img/diseño/descarga.png'),url('img/Fondo.jpg');*/
+  background: url("../img/Fondo-index.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/*Para el nombre del nav*/
+.banner .navbar {
+  margin-top: 4%;
+}
+
+.banner .navbar-brand {
+  color: rgb(219, 217, 217);
+  font-size: 1.7em;
+  font-weight: 700;
+  margin-left: 10%;
+}
+/*fin nombre nav*/
+
+.banner .nav {
+  margin-right: 10%;
+}
+
+.banner .nav li a {
+  color: rgb(204, 201, 201);
+  font-size: 1.6em;
+}
+/*Lo del medio*/
+.banner .info {
+  margin-top: 15%;
+  transform: translateY(-15%);
+}
+/*Titulo bienvenidos*/
+.banner .info h1 {
+  font-size: 2.4em;
+  font-weight: 700;
+  color: rgb(235, 235, 235);
+  letter-spacing: 2px;
+}
+/*info-bienvenidos*/
+.banner .info p {
+  font-size: 1.4em;
+  font-weight: 500;
+  color: rgb(187, 187, 187);
+  letter-spacing: 3px;
+}
+/*Fin medio*/
+
+/*Boton login*/
+.banner .info a {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: rgb(230, 230, 230);
+  background: #254ea8;
+  padding: 10px 20px;
+  font-size: 1.6em;
+  font-weight: 500;
+  border: none;
+  transition: 0.5s;
+}
+
+.banner .info a:hover {
+  background: #e0dd19;
+  color: black;
+}
+/*Fin boton*/
+
+.text-center h1 {
+  transition: 0.5s;
+}
+
+/* Footer */
+footer{
+  background: #2c2c2c;
+  padding: 35px 0;
+}
+
+.footer-container{
+  max-width: 1300px;
+  margin: auto;
+  padding: 0 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.logo{
+  width: 270px;
+  margin-left: 28%;
+}
+
+.social-media{
+  margin: 20px 0;
+}
+
+.social-media a{
+  color: #fff;
+  margin-right: 25px;
+  font-size: 35px;
+  text-decoration: none;
+  transition: .3s linear;
+}
+
+.social-media a:hover{
+color: rgb(213, 224, 49);
+}
+
+.rights-text{
+  color: #888;
+  font-family: lato;
+}
+/* fin footer */

@@ -1,0 +1,44 @@
+
+.pag-principal{
+    width: 100%;
+}
+
+/*Tabla*/
+.cuadro{
+    margin: 20%;
+    margin-top: 35%;
+}
+
+.table .btn{
+	margin-bottom: 0;
+}
+.table thead th{
+	color: #FFF;
+}
+.table tbody tr{
+	color: #333;
+    transition: all .2s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.table-dark,
+.table{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.table-dark{
+	border: 1px solid #253556;
+}
+.table-dark thead tr{
+	background-color: #253556;
+}
+.table-dark td,
+.table-dark thead th,
+.table-dark th{
+    border: none;
+    padding: 3px;
+}
+.table-dark tr:hover{
+	color: rgb(0, 140, 255);
+	background-image: linear-gradient(to right, transparent, rgba(124, 100, 112, .2) 85%, transparent);
+}
+/*Fin tabla*/

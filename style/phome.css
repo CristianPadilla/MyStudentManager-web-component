@@ -1,0 +1,104 @@
+.nav-fond{
+    background-color: rgba(255, 235, 205, 0);
+}
+
+/*.nav-a{
+    margin-left: 10%;
+    margin-top: 5%;
+    letter-spacing: 2px;
+}*/
+
+.text-cs{
+    color: rgb(219, 217, 217); 
+    letter-spacing: 2px; 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.4em;
+}
+
+a:link {
+    letter-spacing: 2px; 
+    color: rgb(219, 217, 217); 
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.4em;
+    font-weight: 600;
+}
+
+.cuadro{
+    position: absolute;
+    left: 50%;
+    width: 70%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    letter-spacing: 1px;
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.1em;
+  }
+
+.titulo{
+    color: rgb(219, 217, 217);
+    font-family: 'Raleway', sans-serif; 
+    letter-spacing: 2px;
+    font-size: 1.9em;  
+    font-weight: 700;
+    /* margin-top: 9%;*/
+    /* margin-right: 2%;  */
+    margin-bottom: 5%;
+}
+
+/*Tabla*/
+  .table .btn{
+	margin-bottom: 0;
+}
+.table thead th{
+	color: #FFF;
+}
+.table tbody tr{
+	color: #333;
+    transition: all .2s ease-in-out;
+    font-family: 'Raleway', sans-serif;
+}
+.table-dark,
+.table{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.table-dark{
+	border: 1px solid #253556;
+}
+.table-dark thead tr{
+	background-color: #253556;
+}
+.table-dark td,
+.table-dark thead th,
+.table-dark th{
+    border: none;
+    padding: 3px;
+}
+.table-dark tr:hover{
+	color: rgb(0, 140, 255);
+	background-image: linear-gradient(to right, transparent, rgba(124, 100, 112, .2) 85%, transparent);
+}
+/*Fin tabla*/
+
+/*Boton ingresar*/
+.btn-ingresar{
+  /*transform: translateX(-30%);*/
+  margin-left: 5%;
+  color: rgb(230, 230, 230);
+  background: #254ea8;
+  padding: 2px 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.btn-ingresar:hover{
+    background:  #e0dd19;
+    color: #254ea8;
+    border-color: rgba(0, 0, 0, 0.356);
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.55);
+   }
+   /*Boton fin*/
